@@ -1,0 +1,6 @@
+---
+- name: Install haproxy
+  pacman:
+    name: haproxy
+    state: present
+    update_cache: true
